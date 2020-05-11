@@ -9,7 +9,7 @@
 
 SaaS style recurring plans for Laravel 6.x based on the original Laraplans for Laravel 5.x package by [gerardojbaez](https://github.com/gerardojbaez/laraplans)
 
-The package has been refactored to run on Laravel 6.x, as have the test so the build now passes.
+The package has been refactored to run on Laravel 6.x & 7.x, as have the test so the build now passes.
 
 **Documentation is available at http://czechbox-laraplans.readthedocs.io**
 
