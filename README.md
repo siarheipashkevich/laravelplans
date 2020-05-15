@@ -2,7 +2,7 @@
 [![Latest Version](https://img.shields.io/github/release/czechbox/laravelplans.svg?style=flat-square)](https://github.com/czechbox/laravelplans/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Documentation Status](https://readthedocs.org/projects/czechbox-laraplans/badge/?version=latest)](https://czechbox-laraplans.readthedocs.io/en/latest/?badge=latest)
-![GitHub All Releases](https://img.shields.io/github/downloads/czechbox/laravelplans/total)
+![Packagist Downloads](https://img.shields.io/packagist/dt/czechbox/laravelplans)
 
 
 # LaravelPlans
