@@ -1,5 +1,5 @@
 {
-    "name": "czechbox/laravelplans",
+    "name": "esupl/laravelplans",
     "description": "SaaS style recurring plans for Laravel.",
     "keywords": ["plans", "laravel", "subscriptions", "memberships"],
     "license": "MIT",
