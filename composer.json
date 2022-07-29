@@ -1,14 +1,14 @@
 {
-    "name": "czechbox/laravelplans",
+    "name": "esupl/laravelplans",
     "description": "SaaS style recurring plans for Laravel.",
     "keywords": ["plans", "laravel", "subscriptions", "memberships"],
     "license": "MIT",
     "type": "library",
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2|^8.0",
         "nesbot/carbon": "~2.0",
-        "illuminate/support": "~6.0|~7.0|~8.0",
-        "illuminate/database": "~6.0|~7.0|~8.0"
+        "illuminate/support": "~6.0|~7.0|~8.0|~9.0",
+        "illuminate/database": "~6.0|~7.0|~8.0|~9.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
