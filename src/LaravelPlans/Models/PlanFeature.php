@@ -19,16 +19,7 @@ class PlanFeature extends Model implements PlanFeatureInterface
         'plan_id',
         'code',
         'value',
-        'sort_order'
-    ];
-
-    /**
-     * The attributes that should be mutated to dates.
-     *
-     * @var array
-     */
-    protected $dates = [
-        'created_at', 'updated_at'
+        'sort_order',
     ];
 
     /**

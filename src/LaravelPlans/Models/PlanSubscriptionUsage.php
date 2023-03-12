@@ -17,16 +17,16 @@ class PlanSubscriptionUsage extends Model implements PlanSubscriptionUsageInterf
         'subscription_id',
         'code',
         'valid_until',
-        'used'
+        'used',
     ];
 
     /**
-     * The attributes that should be mutated to dates.
+     * The attributes that should be cast.
      *
      * @var array
      */
-    protected $dates = [
-        'created_at', 'updated_at', 'valid_until',
+    protected $casts = [
+        'valid_until' => 'datetime',
     ];
 
     /**
