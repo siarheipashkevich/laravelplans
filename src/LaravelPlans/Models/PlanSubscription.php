@@ -2,14 +2,12 @@
 
 namespace Czechbox\LaravelPlans\Models;
 
-use DB;
-use App;
 use Carbon\Carbon;
 use LogicException;
 use Czechbox\LaravelPlans\Period;
-use Illuminate\Support\Facades\Event;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\App;
 use Illuminate\Database\Eloquent\Model;
-use Czechbox\LaravelPlans\Models\PlanFeature;
 use Czechbox\LaravelPlans\SubscriptionAbility;
 use Czechbox\LaravelPlans\Traits\BelongsToPlan;
 use Czechbox\LaravelPlans\Contracts\PlanInterface;
@@ -19,8 +17,6 @@ use Czechbox\LaravelPlans\Events\SubscriptionRenewed;
 use Czechbox\LaravelPlans\Events\SubscriptionCanceled;
 use Czechbox\LaravelPlans\Events\SubscriptionPlanChanged;
 use Czechbox\LaravelPlans\Contracts\PlanSubscriptionInterface;
-use Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException;
-use Czechbox\LaravelPlans\Exceptions\FeatureValueFormatIncompatibleException;
 
 class PlanSubscription extends Model implements PlanSubscriptionInterface
 {

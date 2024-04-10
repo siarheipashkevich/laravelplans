@@ -3,8 +3,6 @@
 namespace Czechbox\LaravelPlans;
 
 use Illuminate\Support\ServiceProvider;
-use Czechbox\LaravelPlans\SubscriptionBuilder;
-use Czechbox\LaravelPlans\SubscriptionResolver;
 use Czechbox\LaravelPlans\Contracts\PlanInterface;
 use Czechbox\LaravelPlans\Contracts\PlanFeatureInterface;
 use Czechbox\LaravelPlans\Contracts\PlanSubscriptionInterface;

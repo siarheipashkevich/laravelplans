@@ -2,13 +2,9 @@
 
 namespace Czechbox\LaravelPlans\Traits;
 
-use Carbon\Carbon;
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\App;
-use Czechbox\LaravelPlans\SubscriptionBuilder;
-use Czechbox\LaravelPlans\Contracts\PlanInterface;
 use Czechbox\LaravelPlans\SubscriptionUsageManager;
-use Czechbox\LaravelPlans\Contracts\PlanSubscriptionInterface;
 use Czechbox\LaravelPlans\Contracts\SubscriptionBuilderInterface;
 use Czechbox\LaravelPlans\Contracts\SubscriptionResolverInterface;
 

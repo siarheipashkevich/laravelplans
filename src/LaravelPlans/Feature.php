@@ -3,7 +3,6 @@
 namespace Czechbox\LaravelPlans;
 
 use Carbon\Carbon;
-use Czechbox\LaravelPlans\Period;
 use Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException;
 
 class Feature

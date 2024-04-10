@@ -2,8 +2,6 @@
 
 namespace Czechbox\LaravelPlans;
 
-use Czechbox\LaravelPlans\Feature;
-
 class SubscriptionAbility
 {
     /**

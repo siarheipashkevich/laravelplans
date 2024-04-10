@@ -3,7 +3,6 @@
 namespace Czechbox\LaravelPlans;
 
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Model;
 use Czechbox\LaravelPlans\Contracts\SubscriptionBuilderInterface;
 
 class SubscriptionBuilder implements SubscriptionBuilderInterface
